@@ -9,9 +9,16 @@ import Button from "./Components/Button.js"
       <div>
         <h1 style={{textAlign: "center", backgroundColor:"red"}}>Hello Word</h1>
         <p className="para">Hi I am Pksingh Para</p>
-      <Button name="Apple"/>
-      <Button name="Banana" />
-      <Button name="Orange"></Button>
+      <Button name="Apple">
+        <p>This button is for buying Apple</p>
+         </Button>
+      <Button name="Banana">
+        <p>This button is for buying Banana</p>
+        <h3>Enjoy</h3>
+      </Button>
+      <Button name="Orange">
+        <p>This button is for buying Orange</p>
+      </Button>
       </div>
     )
   }
